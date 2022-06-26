@@ -30,7 +30,10 @@ jobs:
       - name: Add username
         run: git config --global user.name "dgaponcic"    
 
-      - name: chackout
+      - name: Check remotes
+        run: git remote -v
+        
+      - name: checkout
         run: git checkout master
         
       - name: Git add
