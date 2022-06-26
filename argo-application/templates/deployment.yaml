@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: argo-train-app
+spec:
+  selector:
+    matchLabels:
+      app: argo-train-app
+  replicas: 1
+  revisionHistoryLimit: 2
+  template:
+    metadata:
+      labels:
+        app: argo-train-app
+    spec:
+      containers:
+        - name: argo-train-app
+          image: {{ .Values.image.name }}:{{ .Values.image.tag }}

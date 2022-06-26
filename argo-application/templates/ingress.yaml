@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress-argo-train
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: argo-train
+      http:
+        paths:
+          - path: /hello
+            pathType: Prefix
+            backend:
+              service: 
+                name: service-argo-train-app
+                port: 
+                  number: 5000
