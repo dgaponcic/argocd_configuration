@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://dgaponcic.github.io/argocd_configuration/
-    targetRevision: 0.1.*
+    targetRevision: 0.0.*
     chart: argo-application
     helm:
       releaseName: argo-application
