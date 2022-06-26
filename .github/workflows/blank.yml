@@ -2,8 +2,10 @@ name: Updater index.yaml
 
 on:
   push:
-    tags:
-      - '*'
+    branches:
+      - master
+#     tags:
+#       - '*'
     
 jobs:
   push_to_registries:
