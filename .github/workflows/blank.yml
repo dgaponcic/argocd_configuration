@@ -16,9 +16,10 @@ jobs:
       contents: read
     steps:
       - name: Check out the repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
+          ref: master
         
       - name: update index.yaml
         run: helm repo index .  
