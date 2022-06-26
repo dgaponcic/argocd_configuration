@@ -2,7 +2,8 @@ name: Updater index.yaml
 
 on:
   push:
-    branches: ["master"]
+    tags:
+      - '*'
     
 jobs:
   push_to_registries:
@@ -35,6 +36,6 @@ jobs:
       - name: Git commit
         run: git commit -m "update configuration with new index.yaml"
         
-#       - name: Git push
-#         run: git push origin master
+      - name: Git push
+        run: git push origin master
       
