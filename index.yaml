@@ -3,7 +3,7 @@ entries:
   argo-application:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-07-17T23:13:28.01446846Z"
+    created: "2022-07-17T23:24:11.329577255Z"
     description: A Helm chart for Kubernetes
     digest: 7905bba15346831f6970f0981c5206066c1b68e3f3462e32f67ed5132e0adae1
     name: argo-application
@@ -13,7 +13,17 @@ entries:
     version: 0.1.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-07-17T23:13:28.015766361Z"
+    created: "2022-07-17T23:24:11.331032039Z"
+    description: A Helm chart for Kubernetes
+    digest: 43ff27f2bf25b7d87f258ad53924ddfe15c058b720a1b3dbe7265d6421105ba2
+    name: argo-application
+    type: application
+    urls:
+    - charts/test-app-2022-07-17--23-22.tgz
+    version: 0.0.7
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-07-17T23:24:11.330749223Z"
     description: A Helm chart for Kubernetes
     digest: 4c3ba0215634ce6c10c2336c205ac26cb76ee7ad41d65fbcc19d5ff02ca9bc51
     name: argo-application
@@ -23,7 +33,7 @@ entries:
     version: 0.0.6
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-07-17T23:13:28.014938297Z"
+    created: "2022-07-17T23:24:11.330290696Z"
     description: A Helm chart for Kubernetes
     digest: 1c2db5bb4c34aae8512a3a0ea083efcf76a2dc2ccd18d6a8a47ee21b419c709d
     name: argo-application
@@ -33,7 +43,7 @@ entries:
     version: 0.0.5
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-07-17T23:13:28.014708279Z"
+    created: "2022-07-17T23:24:11.329937476Z"
     description: A Helm chart for Kubernetes
     digest: 6dcbbe65aaf49c1a271679f514f0c696e45d281d84eaa1a585a4d494df9374a7
     name: argo-application
@@ -43,7 +53,7 @@ entries:
     version: 0.0.4
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-07-17T23:13:28.014216941Z"
+    created: "2022-07-17T23:24:11.329239436Z"
     description: A Helm chart for Kubernetes
     digest: 8a1c4bcddc8deedc801944969a97b0894fb98ca8e2f9a61c5219dbd1ed4f6fda
     name: argo-application
@@ -53,7 +63,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-07-17T23:13:28.013935319Z"
+    created: "2022-07-17T23:24:11.328903616Z"
     description: A Helm chart for Kubernetes
     digest: 074de58d2381eb113ae72fb24bac873be4d27b4c945d2a4a32edd24dad6fe254
     name: argo-application
@@ -61,4 +71,4 @@ entries:
     urls:
     - charts/test-app-2022-06-26--30-09.tgz
     version: 0.0.2
-generated: "2022-07-17T23:13:28.013248466Z"
+generated: "2022-07-17T23:24:11.328284381Z"
